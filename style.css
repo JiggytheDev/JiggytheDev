@@ -60,8 +60,9 @@ a {
     background-color: hsl(0, 0%, 20%);
 }
 
-a:hover {
-    color: hsl(75, 94%, 57%);
+a:active, a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #fff;
 }
 
 a.no-style {
